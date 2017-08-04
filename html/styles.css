@@ -1,0 +1,26 @@
+body {
+  /*background: url('http://www.modena24.net/wp-content/uploads/2016/05/gattini.jpg') !important;*/
+}
+
+html{
+    font-family: "Arial",  sans-serif;
+}
+
+li{
+    padding-bottom: 5px;
+}
+ 
+#masthead,
+#primary {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  background-color: #fff;
+  padding: 20px !important;
+}
+#masthead {
+  background: none;
+}
+#masthead img, #primary img {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}

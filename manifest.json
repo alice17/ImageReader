@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "ImageReader",
+  "version": "0.1.2",
+  "description": "A simple image reader for helping blind people",
+    
+  "permissions": ["contextMenus", "storage", "notifications", "tabs"],
+    
+  "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["jquery.js", "content.js"]
+        }
+  ],
+    
+  "background": {
+        "scripts": ["clarifai-latest.js", "jquery.js", "background.js"]
+  },
+
+  "icons": { 
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png" 
+  },
+    
+  "browser_action": {
+        "default_icon": "icons/icon16.png"
+   },
+    
+  "options_ui": {
+        "page": "options.html",
+        "chrome_style": true,
+        "open_in_tab": false
+  }
+}

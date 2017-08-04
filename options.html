@@ -1,0 +1,151 @@
+<html lang="en"> 
+    <head> 
+        <script src="jquery.js"></script> 
+        <meta charset="UTF-8">
+        <script src="options_lang.js"></script>
+        
+        <title>Image Reader options</title>
+
+        <style>
+            #optionContainer {
+                width: 450px;
+                margin-left: 30px;
+                margin-right: 30px;
+            }
+
+            label {
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            input {
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            #accuracyText {
+                float: right;
+                margin-left: 10px;
+                width: 40px;
+                text-align: right;
+            }
+
+            .scrollLabel {
+                width: 250px;
+            }
+
+            .selectLabel {
+                width: 320px;
+            }
+
+            .textLabel {
+                width: 150px;
+            }
+
+            .checkLabel {
+                width: 437px;
+            }
+
+            .opBlock {
+                width: 450px;
+                margin-top: 15px;
+            }
+
+            #save {
+                margin-right: 30px;
+            }
+
+            #buttonContainer {
+                margin-top: 40px;
+                text-align: center;
+            }
+
+            select {
+                margin: 0px;
+                width: 130px;
+            }
+
+            input[type="checkbox"] {
+                margin: 0px;
+                width: 13px;
+                height: 13px;
+            }
+
+            input[type="text"] {
+                margin: 0px;
+                width: 300px;
+                text-align: right;
+            }
+
+            input[type="range"] {
+                margin: 0px;
+                width: 150px;
+            }
+        </style>
+    </head> 
+
+    <body> 
+        <div id="optionContainer">
+            <h3 id="title"><b>General</b></h3>
+            <div class="opBlock">
+                <label class="checkLabel" for="private" id="checkPrivate">
+                    Analyze private images
+                </label><input type="checkbox" id="private">
+            </div>
+
+            <div class="opBlock">
+                <label class="checkLabel" for="autolanguage" id="checkAutolang" checked>
+                    Automatic page language recognition
+                </label><input type="checkbox" id="autolanguage">
+            </div>
+
+            <div class="opBlock">
+                <label class="selectLabel" id="defaultLang">
+                    Default labeling language
+                </label><select id="language">
+                    <option value="de" id="de">German</option>
+                    <option value="en" id="en" selected="selected">English</option>
+                    <option value="es" id="es">Spanish</option>
+                    <option value="it" id="it">Italian</option>
+                </select>
+            </div>
+
+            <h3 id="imageTitle"><b>Image labeling</b></h3>
+
+            <div class="opBlock">
+                <label class="textLabel" for="key" id="clarifaiKey">
+                    Insert your Clarifai key
+                </label><input type="text" id="key">
+            </div>
+
+            <div class="opBlock">
+                <label class="scrollLabel" for="accuracy" id="accuracyScroll">
+                    Accuracy threshold
+                </label><input type="range" min="80" max= "100" step="0.01" id="accuracy"><label for="accuracy">
+                    <span id="accuracyText"></span>
+                </label>
+            </div>
+
+            <h3 id="textTitle"><b>Text recognition</b></h3>
+            <div class="opBlock">
+                <label class="checkLabel" for="text" id="checkLabel">
+                    Enable text recognition
+                </label><input type="checkbox" id="text">
+            </div>
+
+            <div class="opBlock">
+                <label class="textLabel" for="ocrkey" id="textLabel">
+                    Insert your OCR.Space key
+                </label><input type="text" id="ocrkey">
+            </div>
+
+            <div id="buttonContainer">
+                <button id="save">Apply</button>
+                <button id="restore">Restore defaults</button>
+            </div>
+
+            </div>
+        </div>
+        <script src="options.js"></script>
+    </body> 
+</html>
