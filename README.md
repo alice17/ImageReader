@@ -16,3 +16,9 @@ Instructions are shown at the extension's first startup.
 
 4. Click on "Load extension" and select the project folder.
 ```
+
+
+Contributors:
+
+[trainiste](https://github.com/trainiste).
+[kuro917](https://github.com/kuro917)
