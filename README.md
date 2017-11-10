@@ -20,5 +20,5 @@ Instructions are shown at the extension's first startup.
 
 Contributors:
 
-[trainiste](https://github.com/trainiste).
+[trainiste](https://github.com/trainiste),
 [kuro917](https://github.com/kuro917)
