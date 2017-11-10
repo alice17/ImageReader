@@ -7,7 +7,7 @@ Instructions are shown at the extension's first startup.
 
 
 ```
-1. Clone the project and uzip it.
+1. Clone the project and unzip it.
 
 2. Open Google Chrome's menu and select Extensions.
 
