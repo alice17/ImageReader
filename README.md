@@ -1,8 +1,7 @@
-ImageReader is a Chrome Extension designed for helping blind people to learn about the content of an image in a web page.
+ImageReader is a Google Chrome extension designed for helping blind people to learn about the content of an image in a web page.
 
-Image labeling is provided by Clarifai.
+Image labeling is provided by Clarifai. OCR service is provided by OCR.space. 
 
-OCR service is provided by OCR.space.
 
 Instructions are shown at the extension's first startup.
 
