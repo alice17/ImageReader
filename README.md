@@ -5,7 +5,7 @@ ImageReader is a Google Chrome extension designed for helping blind people to le
 Image labeling is provided by Clarifai. OCR service is provided by OCR.space. 
 
 
-Instructions are shown at the extension's first startup.
+Instructions on how to use the extension and how to settting up the options are shown at the extension's first startup.
 
 
 ```
