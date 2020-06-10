@@ -1,3 +1,5 @@
+![project stars](https://img.shields.io/github/stars/alice17/ImageReader?style=flat)  ![MIT license](https://img.shields.io/github/license/alice17/ImageReader) ![GitHub repo size](https://img.shields.io/github/repo-size/alice17/imagereader)
+
 # ImageReader
 
 ImageReader is a Google Chrome extension designed for helping blind people to learn about the content of an image in a web page.
